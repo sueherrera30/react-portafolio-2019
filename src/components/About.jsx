@@ -1,12 +1,10 @@
 import React from 'react';
 
-const About = () => { 
-const name = "sue"
-return (
-    <>
-    <h1>Hola</h1> 
-    <h5>{name} !</h5>
-    </>
-    )
-}
+const About = () => (
+ <div className="About">
+     <div className="About-container">
+         Hello
+     </div>
+ </div>
+);
 export default About;

@@ -1,5 +1,6 @@
 import React from 'react';
 import Main from '../components/Main';
+import Intro from '../components/Intro';
 import Personal from '../components/Personal';
 import Skills from '../components/Skills';
 import About from '../components/About';
@@ -10,8 +11,9 @@ import Tools from '../components/Tools';
 import Works from '../components/Works';
 
 const App = () => {
-    return(
+    return (
         <Main>
+            <Intro></Intro>
             <About></About>
             <Personal>
                 <Experience></Experience>
