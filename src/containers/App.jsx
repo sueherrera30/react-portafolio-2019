@@ -12,19 +12,19 @@ import Works from '../components/Works';
 
 const App = () => {
     return (
-        <Main>
-            <Intro></Intro>
-            <About></About>
-            <Personal>
-                <Experience></Experience>
-                <Studies></Studies>
-                <Social></Social>
-            </Personal>
-            <Skills>
-                <Tools></Tools>
-                <Works></Works>
-            </Skills>
-        </Main>  
+            <>
+                <Intro></Intro>
+                <About></About>
+                <Personal>
+                    <Experience></Experience>
+                    <Studies></Studies>
+                    <Social></Social>
+                </Personal>
+                <Skills>
+                    <Tools></Tools>
+                    <Works></Works>
+                </Skills>
+            </>          
     )
 }
 export default App;
