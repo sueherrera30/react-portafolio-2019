@@ -2,6 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 const imgUrl = 'src/images/marcoFlorar3.png';
+// const MainContainer = styled.div`
+//     display: flex;
+//     align-content: center;
+//     justify-content: center;
+//     flex-direction: column;
+// `;
 const IntroStyle = styled.div`
     height: 100vh;
     display: flex;
@@ -15,23 +21,27 @@ const Title = styled.p`
     font-size: 70px;
     margin: 0px;
     @media (max-width: 700px) {
-        font-size: 30px;
-      }
+    font-size: 30px;
+    }
 `;
 const Subtitle = styled.p `
     color: #77A295;
     margin: 0px;
     font-size: 20px;
     font-family: 'Nunito', sans-serif;
+    text-align: center;
+    display: inline-block;
 `;
 const TitleImage = styled.img `
-    width: 40%;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
 `;
 const Intro = () =>(
     <IntroStyle>
         <div className="Intro-container">
             <Title>Sue Herrera</Title>
-            <Subtitle>Front end in construction</Subtitle>
+            <Subtitle id="subtitleTyped"></Subtitle>
             <TitleImage src={imgUrl} />
         </div>
     </IntroStyle>
