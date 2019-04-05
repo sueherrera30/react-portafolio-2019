@@ -2,12 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const imgUrl = 'src/images/marcoFlorar3.png';
-// const MainContainer = styled.div`
-//     display: flex;
-//     align-content: center;
-//     justify-content: center;
-//     flex-direction: column;
-// `;
 const IntroStyle = styled.div`
     height: 100vh;
     display: flex;

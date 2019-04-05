@@ -1,10 +1,14 @@
 import React from 'react';
+import styled from 'styled-components';
 
-const Skills = () => (
- <div className="Skills">
-     <div className="Skills-container">
-         Hello
-     </div>
- </div>
+const SocialMain = styled.div`
+    height: calc(100%/3);
+    background-color: green;
+`;
+
+const Social = () => (
+ <SocialMain className="Social">
+      Hello loco
+ </SocialMain>
 );
-export default Skills;
+export default Social;
