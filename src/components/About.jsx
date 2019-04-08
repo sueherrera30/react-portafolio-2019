@@ -32,7 +32,7 @@ const About = () => (
         < AboutTitle>Hello, nice to meet you!</ AboutTitle>
         <SelfPortrait src={imgUrl} />
         <AboutText>
-            My name is Sue Herrera and within my veins there are variables and musical notes; 
+            My name is Sue Herrera and into my veins there are variables and musical notes; 
             I'm a cellist and recently I started creating with a new ingredient: Code.
             I am training as a front-end, but in my sAboutTextare time I disguise myself as a teacher and crossfitter.
         </AboutText>
