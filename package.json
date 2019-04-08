@@ -22,7 +22,9 @@
   "dependencies": {
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
+    "react-icons": "^3.5.0",
     "styled-components": "^4.2.0",
+    "typed.js": "^2.0.10",
     "webpack": "^4.29.6"
   },
   "devDependencies": {

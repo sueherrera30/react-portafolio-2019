@@ -9,17 +9,21 @@ import Studies from '../components/Studies';
 import Social from '../components/Social';
 import Tools from '../components/Tools';
 import Works from '../components/Works';
+import Information from '../components/Information';
 
 const App = () => {
     return (
             <>
                 <Intro></Intro>
-                <About></About>
                 <Personal>
-                    <Experience></Experience>
-                    <Studies></Studies>
-                    <Social></Social>
+                    <About></About>
+                    <Information>
+                        <Experience></Experience>
+                        <Studies></Studies>
+                        <Social></Social>
+                    </Information>
                 </Personal>
+                
                 <Skills>
                     <Tools></Tools>
                     <Works></Works>
