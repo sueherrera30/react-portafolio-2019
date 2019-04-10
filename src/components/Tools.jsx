@@ -1,10 +1,12 @@
 import React from 'react';
 
+const imgStain = 'src/images/stain.png';
+
 const Tools = () => (
  <div className="Tools">
-     <div className="Tools-container">
-         Hello
-     </div>
+    <div>
+        <img src={imgStain}/>  
+    </div>
  </div>
 );
 export default Tools;

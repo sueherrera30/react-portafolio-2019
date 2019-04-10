@@ -20,10 +20,9 @@ const App = () => {
                     <Information>
                         <Experience></Experience>
                         <Studies></Studies>
-                        <Social></Social>
+                        {/* <Social></Social> */}
                     </Information>
                 </Personal>
-                
                 <Skills>
                     <Tools></Tools>
                     <Works></Works>

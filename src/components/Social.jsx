@@ -4,7 +4,7 @@ import { FaWhatsapp, FaGithub, FaFacebookF, FaLinkedinIn,FaInstagram } from 'rea
 import { IconContext } from "react-icons";
 
 const SocialMain = styled.div`
-    height: 20%;
+    height: calc(100%/3);
     width: 100%;
     display: flex;
     justify-content: space-around;

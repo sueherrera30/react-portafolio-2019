@@ -8,6 +8,7 @@ const IntroStyle = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: -webkit-linear-gradient(#fce8d4, #fff);
 `;
 const Title = styled.p`
     font-family: 'Cedarville Cursive', cursive;

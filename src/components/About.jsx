@@ -5,11 +5,13 @@ import styled from 'styled-components';
 const imgUrl = 'src/images/suefloripondia.png';
 
 const AboutMain = styled.div`
-    width: 50%;
+    width: 40%;
+    height: 90%;
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    //background: linear-gradient(45deg, rgba(254,203,163,0) 0%, rgba(254,203,163,0.4) 37%, rgba(0,128,128,0.92) 92%, rgba(0,128,128,1) 100%);
+    background: linear-gradient(45deg, rgba(250,248,215,0.5) 0%, rgba(251,246,212,0.5) 20%, rgba(255,241,201,1) 100%);
 `;
 const AboutTitle= styled.div`
     font-family: 'Cedarville Cursive', cursive;
