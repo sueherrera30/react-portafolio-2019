@@ -4,7 +4,7 @@ import OrangeTitle from '../styled/titles';
 import { ContainerPersonalText, PersonalTextMain} from '../styled/containerPersonalText';
 import { H3Pink } from '../styled/personalH3';
 import { MainImageContainer,ImageContainer, SingleImage } from '../styled/imagesContainers';
-import PersonalSection from '../styled/personalMainContainers';
+import { PersonalSection } from '../styled/personalMainContainers';
 
 const imgInba = 'src/images/inba.png';
 const imgFam = 'src/images/fam.png';

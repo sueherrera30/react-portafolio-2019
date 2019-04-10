@@ -4,7 +4,7 @@ import OrangETitle from '../styled/titles';
 import { ContainerPersonalText, PersonalTextMain} from '../styled/containerPersonalText';
 import { PersonalH3 } from '../styled/personalH3';
 import { MainImageContainer,ImageContainer, SingleImage } from '../styled/imagesContainers';
-import PersonalSection from '../styled/personalMainContainers';
+import { PersonalSection } from '../styled/personalMainContainers';
 
 const imgCultivo = 'src/images/cultivo_logo.png';
 const imgBlooders = 'src/images/logo_red.png';
