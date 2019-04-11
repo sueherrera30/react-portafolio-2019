@@ -1,10 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
-import OrangETitle from '../styled/titles';
-import { ContainerPersonalText, PersonalTextMain} from '../styled/containerPersonalText';
-import { PersonalH3 } from '../styled/personalH3';
-import { MainImageContainer,ImageContainer, SingleImage } from '../styled/imagesContainers';
-import { PersonalSection } from '../styled/personalMainContainers';
+import OrangETitle from '../styled/personal/titles';
+import { ContainerPersonalText, PersonalTextMain} from '../styled/personal/containerPersonalText';
+import { PersonalH3 } from '../styled/personal/personalH3';
+import { MainImageContainer,ImageContainer, SingleImage } from '../styled/personal/imagesContainers';
+import { PersonalSection } from '../styled/personal/personalMainContainers';
 
 const imgCultivo = 'src/images/cultivo_logo.png';
 const imgBlooders = 'src/images/logo_red.png';

@@ -1,5 +1,5 @@
 import React from 'react';
-import { MainPersonalSection } from '../styled/personalMainContainers';
+import { MainPersonalSection } from '../styled/personal/personalMainContainers';
 
 const Information = ({ children }) => (
     <MainPersonalSection>
