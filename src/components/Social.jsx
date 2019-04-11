@@ -90,7 +90,7 @@ const Social = () => (
             <li>
             <SingleSocial href="">
                 <ThemeProvider theme = {getStyle('mail')}>
-                    <SocialIcon className={`fas fa-${'at'}`} /> 
+                    <SocialIcon className={`fas fa-${'envelope'}`} /> 
                 </ThemeProvider> 
             </SingleSocial>
             </li> 
