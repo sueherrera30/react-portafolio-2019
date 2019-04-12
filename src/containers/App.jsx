@@ -24,8 +24,8 @@ const App = () => {
                 </Personal>
                 <Skills>
                     <Tools></Tools>
-                    <Works></Works>
                 </Skills>
+                <Works></Works>
                 <Social></Social>
                 
             </>          

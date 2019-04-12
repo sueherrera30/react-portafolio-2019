@@ -19,7 +19,6 @@ const Social = () => (
                 </ThemeProvider> 
             </SingleSocial>
             </li> 
-
             <li>
             <SingleSocial href="">
                 <ThemeProvider theme = {getStyle('github')}>
@@ -27,7 +26,6 @@ const Social = () => (
                 </ThemeProvider> 
             </SingleSocial>
             </li> 
-
             <li>
             <SingleSocial href="">
                 <ThemeProvider theme = {getStyle('linkedin')}>
@@ -35,7 +33,6 @@ const Social = () => (
                 </ThemeProvider> 
             </SingleSocial>
             </li> 
-
             <li>
             <SingleSocial href="">
                 <ThemeProvider theme = {getStyle('mail')}>

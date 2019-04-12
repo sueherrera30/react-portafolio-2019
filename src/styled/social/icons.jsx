@@ -3,8 +3,8 @@ import styled from 'styled-components';
 
 const SocialMain = styled.div`
     width: 100%;
-    background-color: rgba(54, 95, 100, 0.3);
-    height: 100px;
+    background: linear-gradient(to bottom, rgba(242,240,200,0.99) 0%, rgba(219,224,204,0.99) 47%, rgba(196,207,209,1) 96%, rgba(194,206,209,1) 100%);
+    height: 300px;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -13,12 +13,12 @@ const SocialMain = styled.div`
         list-style-type: none;
     }
 `;
-
 const SocialList = styled.ul`
     width: 50%; 
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0;
     li {
         list-style-type: none;
     }
