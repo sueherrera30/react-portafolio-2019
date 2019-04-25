@@ -1,10 +1,6 @@
 import React from 'react';
+import SkillsMain from '../styled/skills/mainSkills';
 
-const Skills = () => (
- <div className="Skills">
-     <div className="Skills-container">
-         Hello
-     </div>
- </div>
-);
+const Skills = ({children}) => (<SkillsMain>{children}</SkillsMain>);
+
 export default Skills;

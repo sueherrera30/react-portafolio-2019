@@ -1,15 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
+import { MainPersonalSection } from '../styled/personal/personalMainContainers';
 
-const InformationMain = styled.div`
-width: 50%;
-height: 100vh;
-display:flex;
-flex-direction: column;
-`;
 const Information = ({ children }) => (
-    <InformationMain className="Information">
+    <MainPersonalSection>
         { children }
-    </InformationMain>     
+    </MainPersonalSection>     
 )
 export default Information;
