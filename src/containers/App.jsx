@@ -10,8 +10,11 @@ import Social from '../components/Social';
 import Tools from '../components/Tools';
 import Works from '../components/Works';
 import Information from '../components/Information';
+import useGetData from '../hooks/useGetData';
 
 const App = () => {
+   const data = useGetData();
+   console.log(data);
     return (
             <>
                 <Intro></Intro>
@@ -26,8 +29,7 @@ const App = () => {
                     <Tools></Tools>
                 </Skills>
                 <Works></Works>
-                <Social></Social>
-                
+                <Social></Social>             
             </>          
     )
 }
